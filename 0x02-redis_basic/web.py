@@ -7,8 +7,7 @@ from datetime import timedelta
 
 
 def get_page(url: str) -> str:
-    '''Returns the content of a URL after caching the request's response,
-    and tracking the request.
+    '''Returns the content of a URL after caching the request's response    and tracking the request.
     '''
     if url is None or len(url.strip()) == 0:
         return ''
